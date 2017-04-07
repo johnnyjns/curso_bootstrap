@@ -4,10 +4,23 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="jquery/jquery-1.9.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
         <title>Curso de Bootstrap</title>
     </head>
     <body>
-        <h2>Sobre nós</h2>
-        <img class="img-responsive" src="img/empresa.jpg" alt="empresa.jpg">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <img class="img-responsive" src="img/empresa.jpg" alt="empresa.jpg">
+
+            <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
+            <p id="primeiro-paragrafo" class="collapse">A TopCasaFina Arquitetura esta no mercado desde ...</p>
+
+            <h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
+            <p id="segundo-paragrafo" class="collapse">A TopCasaFina Arquitetura esta no mercado desde ...</p>
+
+            <h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
+            <p id="terceiro-paragrafo" class="collapse">A TopCasaFina Arquitetura esta no mercado desde ...</p>
+        </div>
     </body>
 </html>
