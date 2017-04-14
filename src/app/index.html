@@ -39,9 +39,9 @@
       </header>
       <section id="sobre-nos" class="container">
           <h2>Sobre nós</h2>
-          <img class="img-responsive" src="img/empresa.jpg" alt="empresa.jpg">
-
-          <div class="panel-group" id="paineis-sobre">
+          <div class="row">
+          <img class="img-responsive col-sm-6" src="img/empresa.jpg" alt="empresa.jpg">
+          <div class="panel-group col-sm-6" id="paineis-sobre">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
@@ -75,6 +75,7 @@
               </div>
             </div>
           </div>
+        </div>
 
         </section>
 
@@ -87,45 +88,53 @@
 
         <section id="nossos-projetos" class="container">
           <h2>Nossos Projetos</h2>
-          <figure class="thumbnail">
-            <img class="img-responsive" src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
-            <figcaption class="caption">
-              <h3>Casa Castelo</h3>
-              <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
-            </figcaption>
-          </figure>
-
-          <figure class="thumbnail">
-            <img class="img-responsive" src="img/projetos/casa-lago.png" alt="Foto da Casa Lago">
-            <figcaption class="caption">
-              <h3>Casa Lago</h3>
-              <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
-            </figcaption>
-          </figure>
-
-          <figure class="thumbnail">
-            <img class="img-responsive" src="img/projetos/mercado-marapira.png" alt="Foto do Mercado Marapira">
-            <figcaption class="caption">
-              <h3>Mercado Marapira</h3>
-              <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
-            </figcaption>
-          </figure>
-
-          <figure class="thumbnail">
-            <img class="img-responsive" src="img/projetos/palacio-dionisio.png" alt="Foto do Palácio Dionísio">
-            <figcaption class="caption">
-              <h3>Palácio Dionísio</h3>
-              <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
-            </figcaption>
-          </figure>
-
-          <figure class="thumbnail">
-            <img class="img-responsive" src="img/projetos/residencia-ludi.png" alt="Foto da Residência Ludi">
-            <figcaption class="caption">
-              <h3>Residência Ludi</h3>
-              <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
-            </figcaption>
-          </figure>
+          <div class="row">
+            <div class="col-sm-6">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+                <figcaption class="caption">
+                  <h3>Casa Castelo</h3>
+                  <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="img/projetos/casa-lago.png" alt="Foto da Casa Lago">
+                <figcaption class="caption">
+                  <h3>Casa Lago</h3>
+                  <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="img/projetos/mercado-marapira.png" alt="Foto do Mercado Marapira">
+                <figcaption class="caption">
+                  <h3>Mercado Marapira</h3>
+                  <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="img/projetos/palacio-dionisio.png" alt="Foto do Palácio Dionísio">
+                <figcaption class="caption">
+                  <h3>Palácio Dionísio</h3>
+                  <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6">
+              <figure class="thumbnail">
+                <img class="img-responsive" src="img/projetos/residencia-ludi.png" alt="Foto da Residência Ludi">
+                <figcaption class="caption">
+                  <h3>Residência Ludi</h3>
+                  <p>A Casa Castelo é o último lançamento da TopCasaFina feita para um monge.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </section>
 
         <section id="depoimentos">
@@ -176,59 +185,60 @@
           </div>
         </section>
 
-        <div id="video" class="container">
-          <h2>Video Institucional</h2>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <section id="contato" class="container">
-          <h2>Contato</h2>
-          <p>Entre em contato conosco</p>
-
-          <form action="">
-            <div class="form-group">
-              <label for="contato-name">Nome:</label>
-              <input class="form-control" id="contato-name" type="text" placeholder="Seu nome">
+        <div class="row">
+          <section id="video" class="col-sm-6">
+            <h2>Video Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
             </div>
+          </section>
 
-            <div class="form-group">
-              <label for="contato-email">E-mail:</label>
-              <div class="input-group">
-                <div class="input-group-addon">@</div>
-                <input class="form-control" type="email" id="contato-email" placeholder="Seu e-mail">
+          <section id="contato" class="col-sm-6">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco</p>
+
+            <form action="">
+              <div class="form-group">
+                <label for="contato-name">Nome:</label>
+                <input class="form-control" id="contato-name" type="text" placeholder="Seu nome">
               </div>
-            </div>
 
-            <div class="grupo-radio">
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="tipo-pessoa" checked>
-                        Pessoa Fisíca
-                    </label>
+              <div class="form-group">
+                <label for="contato-email">E-mail:</label>
+                <div class="input-group">
+                  <div class="input-group-addon">@</div>
+                  <input class="form-control" type="email" id="contato-email" placeholder="Seu e-mail">
                 </div>
+              </div>
 
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="tipo-pessoa">
-                        Pessoa Jurídica
-                    </label>
-                </div>
-            </div><!--
+              <div class="grupo-radio">
+                  <div class="radio">
+                      <label>
+                          <input type="radio" name="tipo-pessoa" checked>
+                          Pessoa Fisíca
+                      </label>
+                  </div>
 
-            --><select class="contato-select form-control">
-                <option disabled selected>Tipo de Situação</option>
-                <option>Casa</option>
-                <option>Apartamento</option>
-                <option>Mansão</option>
-            </select>
+                  <div class="radio">
+                      <label>
+                          <input type="radio" name="tipo-pessoa">
+                          Pessoa Jurídica
+                      </label>
+                  </div>
+              </div><!--
 
-            <button class="btn btn-primary" type="submit">Enviar</button>
+              --><select class="contato-select form-control">
+                  <option disabled selected>Tipo de Situação</option>
+                  <option>Casa</option>
+                  <option>Apartamento</option>
+                  <option>Mansão</option>
+              </select>
 
-          </form>
-        </section>
+              <button class="btn btn-primary" type="submit">Enviar</button>
 
+            </form>
+          </section>
+        </div>
         <footer>
           <address>
             <strong>TopCasaFina Arquitetura</strong><br>

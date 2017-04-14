@@ -55,3 +55,13 @@ footer address:last-child {
     transform: translate(-50%, -50%);
     transition: 0.3s;
 }
+@media(min-width: 768px){
+  .colunas-2 {
+    width: 50%;
+    float: left;
+  }
+
+  #paineis-sobre {
+    margin-top: 0;
+  }
+}
