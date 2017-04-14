@@ -56,12 +56,19 @@ footer address:last-child {
     transition: 0.3s;
 }
 @media(min-width: 768px){
-  .colunas-2 {
-    width: 50%;
-    float: left;
-  }
-
   #paineis-sobre {
     margin-top: 0;
+  }
+}
+@media(min-width: 992px){
+  .topCasaFina-banner{
+    left: 0;
+    transform: translate(0, -80%);
+    width: 50%;
+  }
+
+  .topCasaFina-bannerWrapper{
+    position: relative;
+    height: 100%;
   }
 }
